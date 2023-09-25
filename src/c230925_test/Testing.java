@@ -24,14 +24,9 @@ public class Testing {
 	}
 	//거꾸로 뒤집는 프로그램
 	public void Q2(String input) {
-		char[] arr = new char[input.length()];
-		for(int i=0; i<input.length(); i++) {
-			char temp= input.charAt(i);
-			arr[i]=temp;
-		}
-		for(int i=arr.length; i<0; i--) {
-			System.out.println(arr[i]);
-		}
+		StringBuffer sb= new StringBuffer(input);
+		String temp= sb.reverse().toString();
+		System.out.println(temp);
 	}
 	
 	//공백제거
@@ -58,11 +53,11 @@ public class Testing {
 		
 	}
 	//특정 문자열 인덱스 반환
-	public int findCharIndex(String str, char target) {
-		return str.indexOf(target);
+	public void findCharIndex(String str, char target) {
+		System.out.println(str.indexOf(target));
 	}
 	//단어의 갯수 출력
-	public int countWords(String str) {
+	public void countWords(String str) {
 		int count=1;
 		char[] temp=str.toCharArray();
 		for(int i=0; i<temp.length; i++) {
@@ -70,7 +65,7 @@ public class Testing {
 				count++;
 			}
 		}
-		return count;
+		System.out.println(count);
 	}
 	//소수 판별
 	public void isPrime(int num) {
