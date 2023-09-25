@@ -36,7 +36,7 @@ public class Testing {
 	
 	//공백제거
 	public void Q3(String str) {
-		String output=str.replaceAll("\\s", str);
+		String output=str.replaceAll("\\s", "");
 		System.out.print(output);
 		}
 //	//대소문자 변경
@@ -73,12 +73,12 @@ public class Testing {
 		return count;
 	}
 	//소수 판별
-	public boolean isPrime(int num) {
+	public void isPrime(int num) {
 		if(num%num==0) {
-			return true;
+			System.out.println("정수입니다.");
 		}
 		else {
-			return false;
+			System.out.println("정수가 아닙니다");
 		}
 	}
 	//정수 자릿수 합

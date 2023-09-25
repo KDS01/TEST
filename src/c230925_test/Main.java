@@ -9,11 +9,11 @@ public class Main {
 		Testing test = new Testing();
 //		test.Q1();
 //		test.Q2("sssddddwwwdddd");
-//		test.Q3("나는 일어나");
+		test.Q3("나는 바위야 쓰러져도 다시 일어나");
 		test.Q4("asvsaVSDWRRTGGGHRT");
 //		test.findCharIndex("asd dds dwd dwdww",'w');
 //		test.countWords("asd asdd ddwe ddwe");
-//		test.isPrime(7);
+		test.isPrime(7);
 //		test.FindCommonItems(arr1, arr2, arr3);
 //		test.upDownGame();
 		
