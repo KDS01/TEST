@@ -42,20 +42,20 @@ public class Testing {
 //	//대소문자 변경
 	public void Q4(String str) {
 		char[] arr= new char[str.length()];
+		String s1="";
 		for(int i =0; i<str.length(); i++) {
 			char temp=str.charAt(i);
 			if(Character.isUpperCase(temp)) {
 				Character.toLowerCase(temp);
-				arr[i]=temp;
+				s1+=Character.toLowerCase(temp);
 			}
 			else if(Character.isLowerCase(temp)) {
 				Character.toUpperCase(temp);
-				arr[i]=temp;
+				s1+=Character.toUpperCase(temp);
 			}
 		}
-		for(int i=0; i<arr.length;i++) {
-			System.out.print(arr[i]);
-		}
+			System.out.print(s1);
+		
 	}
 	//특정 문자열 인덱스 반환
 	public int findCharIndex(String str, char target) {

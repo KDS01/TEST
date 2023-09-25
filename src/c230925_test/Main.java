@@ -10,7 +10,7 @@ public class Main {
 //		test.Q1();
 //		test.Q2("sssddddwwwdddd");
 //		test.Q3("나는 일어나");
-//		test.Q4("asvsaVSDWRRTGGGHRT");
+		test.Q4("asvsaVSDWRRTGGGHRT");
 //		test.findCharIndex("asd dds dwd dwdww",'w');
 //		test.countWords("asd asdd ddwe ddwe");
 //		test.isPrime(7);
